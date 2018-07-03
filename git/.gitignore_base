@@ -1,0 +1,12 @@
+# direnv
+.envrc
+
+# emacs
+*~
+\#*\#
+.\#*
+
+# mac
+.DS_Store
+.tmp
+

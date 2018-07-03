@@ -1,0 +1,26 @@
+{
+    // JavaScript の検証を有効/無効にします
+    "javascript.validate.enable": false,
+    "eslint.enable": true,
+    "eslint.options": {
+        "configFile": "./.eslintrc"
+    },
+    "javascript.format.enable": true,
+    "terraform.format": {
+        "enable": true,
+        "ignoreExtensionsOnSave": [
+            ".tfsmurf"
+        ],
+        "formatOnSave": false
+    },
+    "editor.formatOnSave": false,
+    "files.associations": {
+        ".eslintrc": "javascript"
+    },
+    "editor.formatOnType": true,
+    "terminal.integrated.shell.osx": "/bin/zsh",
+    "editor.renderControlCharacters": true,
+    "workbench.startupEditor": "newUntitledFile",
+    "python.linting.flake8Enabled": true,
+    "eslint.alwaysShowStatus": true
+}
